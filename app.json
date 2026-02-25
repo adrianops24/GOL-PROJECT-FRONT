@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "GOL-PROJECT-FRONT",
+    "slug": "GOL-PROJECT-FRONT",
+    "version": "1.0.0",
+    "scheme": "GOL-PROJECT-FRONT",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.adriano.tsx.GOLPROJECTFRONT"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "64bfbfcc-bf6f-4ecc-809e-1ccde3bfcdde"
+      }
+    }
+  }
+}
